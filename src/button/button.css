@@ -1,0 +1,28 @@
+
+.central-button button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: #26ace2;
+    border-radius: 5%;
+    border: 1px solid #fff;
+    color: white;
+    padding: 2px 12px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.central-button button:hover {
+    background: #1e97ca
+}
+
+.central-button h4 {
+
+    color: #fff;
+    font-size: larger;
+}
